@@ -9,4 +9,3 @@ First, are the data generating functions; the data generation was performed in R
 Second, is the analysis implementation. The analysis was implemented using Stata 13.  To record information on the each dataset and each run of the analysis, we used the putexcel command.  This allowed up to create excel files where the relevant information (i.e. point estimate, standard error, p-value, sample size, range of weights, etc.) was recorded from each dataset such that each row of the excel file contained the information from one dataset. 
 
 Third, we pulled the excel files that recorded the point estimates, etc. into stata and ran descriptive statistics, which are presented in the paper.  
-
