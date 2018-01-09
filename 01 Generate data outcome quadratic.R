@@ -9,7 +9,7 @@ library(arm)
 iter = 10000
 obs = 20000
 
-# coefficients to vary correlation & common support - values we used are presented in Appendix Table 7. 
+# coefficients to vary correlation & common support - values we used are presented in Appendix Table 8. 
 b = 
 c = 
 d = 
