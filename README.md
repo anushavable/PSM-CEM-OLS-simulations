@@ -10,3 +10,4 @@ Second, is the analysis implementation. The analysis was implemented using Stata
 
 Third, we pulled the excel files that recorded the point estimates, etc. into stata and ran summary statistics, which are presented in the paper.  
 
+* Note: the R files use spaces for formatting, while the Stata files use tabs. 
