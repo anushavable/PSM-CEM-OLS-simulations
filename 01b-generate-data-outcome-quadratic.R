@@ -1,7 +1,8 @@
-# This code creates the 10,000 datasets for the "outcome quadratic" data structure.
-# We generate all 10,000 datasets at once such that each column is a different dataset
-# with 120,000 observations (i.e. 20,000 observations for each of our 6 variables),
-# and then separate each column into a dataset in Stata.
+# This code creates the 10,000 datasets for the "outcome quadratic" data 
+# structure. We generate all 10,000 datasets at once such that each column is a 
+# different dataset with 120,000 observations (i.e. 20,000 observations for 
+# each of our 6 variables), and then separate each column into a dataset 
+# in Stata.
 
 setwd("")
 # install.packages('arm')
@@ -9,7 +10,8 @@ library(arm)
 iter <- 10000
 obs  <- 20000
 
-# coefficients to vary correlation & common support - values we used are presented in Appendix Table 7.
+# coefficients to vary correlation & common support - values we used are 
+# presented in Appendix Table 7.
 b <- NULL
 c <- NULL
 d <- NULL
